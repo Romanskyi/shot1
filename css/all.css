@@ -1,0 +1,184 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Cuprum', sans-serif;
+}
+.container{
+	width: 980px;
+	margin: 0 auto;
+}
+header{
+	background: url('../img/first-bg.jpg') no-repeat top center / cover;
+padding-bottom: 150px;
+
+	
+
+}
+h1{
+	color: white;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+
+}
+li{
+	list-style: none
+}
+.menu ul {
+	display:flex;
+	
+}
+.test {
+	margin-top: 50px;
+}
+li a{
+	padding-left:36px; 
+	text-transform: uppercase;
+}
+.logo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 41px;
+}
+.title {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 195px;
+}
+span{
+	font-size: 75px;
+	font-weight: bold;
+
+}
+.btn{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #484543;
+	background: #fed136;
+	width: 240px;
+	display: block;
+	padding: 23px 0px;
+	margin: 0 auto;
+	border-radius: 7px;
+	margin-bottom: 45px;
+	text-align:center;
+	margin-top: 45px;
+	font-weight: bold;
+
+
+
+}
+.offer{
+	text-align: center;
+	padding-top: 115px;
+	padding-bottom: 98px;
+}
+h1,h2,h3,h4,h5,h6, p {
+	margin: 0;
+	padding: 0;
+}
+.offer h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+}
+.offer p{
+	font-size: 16px;
+	color: #acacac;
+}
+.trigger{
+	text-align:center;
+}
+.services{
+	justify-content: space-between;
+	
+	display: flex;
+	margin-top:84px;
+	margin-bottom: 83px;  
+}
+
+.trigger h3{
+	padding-bottom: 22px;
+	padding-top: 22px;
+}
+.trigger p{
+	width: 240px;
+}
+.portfolio {
+	background: #d4cece;
+	padding-bottom: 138px;
+}
+.works{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+.about {
+	padding-top: 80px;
+	padding-bottom: 98px;
+}
+.about__item {
+	padding-top: 70px;
+}
+.about-text {
+	width: 35%;
+	
+}
+.about-text h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+.about-text p {
+	font-size: 14px;
+	color: #777;
+	line-height: 1.55em;
+}
+.about-img {
+	width: 30%;
+	text-align: center;
+}
+.about-img img {
+	width: 150px;
+	height: 148px;
+	display: inline-block;
+}
+.text-align-left {
+	text-align: left;
+}
+.text-align-right {
+	text-align: right;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+	
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.info{
+	text-align: center;
+	padding-top: 50px;
+}
+.z
+@media (max-width: 551px){
+	.container{
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+}
+
+
+
+
